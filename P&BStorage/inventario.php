@@ -17,8 +17,8 @@
           <a class="navbar-brand" href="#">P&B Storage</a>
         </div>
         <ul class="nav navbar-nav">
-          <li class="active"><a href="index.php">Inicio</a></li>
-          <li><a href="inventario.php">Inventario</a></li>
+          <li><a href="index.php">Inicio</a></li>
+          <li class="active"><a href="inventario.php">Inventario</a></li>
           <li><a href="proveedores.php">Proveedores</a></li>
           <li><a href="categoria.php">Categorias</a></li>
         </ul>
@@ -26,11 +26,24 @@
     </nav>
       
     <div class="container" style="margin-top:50px">
-      <img src = 'img/portada.png'>
+      <h3>Inventario </h3>
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Consultar Inventario</h5>
+          <p>Consulta aquí los items disponibles en tu inventario.</p>
+          <a href="inventario_get.php"><button class="button">Consultar</button></a>
+        </div>
+        <div class="col-md-4"> 
+          <h5>Eliminar Items</h5>
+          <p>¿Hubo error al capturar los datos del inventario? Entra aquí para eliminar los datos mal capturados.</p>
+          <a href="inventario_delete.php"><button class="button">Eliminar</button></a>
+        </div>
+        <div class="col-md-4"> 
+          <h5>Añadir Items</h5>
+          <p>Entre aquí para añadir nuevos items a sus inventarios.</p>
+          <a href="inventario_add.php"><button class="button">Añadir</button></a>
+        </div>
+      </div>
     </div>
-    <center>
-      <h1>¡Bienvenido a P&B Storage!</h1>
-      <h3>Su sistema de inventarios para almacenes</h3>
-    </center>
   </body>
 </html>

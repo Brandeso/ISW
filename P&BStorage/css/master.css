@@ -1,0 +1,23 @@
+.button {
+  background-color: darkslategrey;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+table{
+	border-collapse: collapse;
+	padding-bottom: 25px;
+	/*background-color: lightblue;*/
+}
+table, td, th{
+	text-align: center;
+	border: 1px solid;
+	padding: 4px;
+}
